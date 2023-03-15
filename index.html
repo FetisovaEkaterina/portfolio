@@ -1,5 +1,6 @@
 <body>
 <head>
+    <meta name="viewport" content="width=device-width, user-scalable=no">
     <nav>
         <a href="#horror"><span>Хоррор</span></a>
 	    <a href="#nature"><span>Природа</span></a>
@@ -352,6 +353,7 @@
         width: 30%;
         /* внутренний отступ внутри коробочки*/
         padding:30px
+      
         
         
         
@@ -376,6 +378,7 @@
     span {
 			padding: 10px 20px 10px 20px;
             
+            
 		}
 
     img {
@@ -393,10 +396,25 @@
     display: none;
 }
 
- 
+ /* пишем стили которые меняются на мобиле */
+@media(max-width:500px) {
 
+div{
 
-    
+    width: 100px
+}
+
+div:hover{
+
+    transform: none;
+}
+body div:first-child a{
+    text-align: center;
+    display: block;
+}
+
+}
+   
     
 
 
