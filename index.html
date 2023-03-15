@@ -13,56 +13,71 @@
 
 
     <h1>Хоррор</h1>
-    <div>
+    <div class="desktop">
 		<h1 id="horror"></h1>
         <a href="img/1.jpg" target="_blank">
         <img src="img/1.jpg">
     </a>
     </div>
+    <div class="mobile">
+        <a href="img/mob1.jpg" target="_blank">
+        <img src="img/mob1.jpg">
+    </a>
+    </div>
 
-    <div>
+    <div class="desktop">
         <a href="img/2.jpg" target="_blank">
         <img src="img/2.jpg">
     </a>
     </div>
+    <div class="mobile">
+        <a href="img/mob2.jpg" target="_blank">
+        <img src="img/mob2.jpg">
+    </a>
+    </div>
 
-    <div>
+    <div class="desktop">
         <a href="img/3.jpg" target="_blank">
         <img src="img/3.jpg">
     </a>
     </div>
+    <div class="mobile">
+        <a href="img/mob3.jpg" target="_blank">
+        <img src="img/mob3.jpg">
+    </a>
+    </div>
 
-    <div>
+    <div class="desktop">
         <a href="img/4.jpg" target="_blank">
         <img src="img/4.jpg">
     </a>
     </div>
         
-    <div>
+    <div class="desktop">
         <a href="img/5.jpg" target="_blank">
         <img src="img/5.jpg">
     </a>
     </div>
         
-    <div>
+    <div class="desktop"> 
         <a href="img/6.jpg" target="_blank">
         <img src="img/6.jpg">
     </a>
     </div>
 
-    <div>
+    <div class="desktop">
         <a href="img/7.jpg" target="_blank">
         <img src="img/7.jpg">
     </a>
     </div>
 
-    <div>
+    <div class="desktop">
         <a href="img/8.jpg" target="_blank">
         <img src="img/8.jpg">
     </a>
     </div>
 
-    <div>
+    <div class="desktop">
         <a href="img/9.jpg" target="_blank">
         <img src="img/9.jpg">
     </a>
@@ -396,12 +411,18 @@
     display: none;
 }
 
+.mobile{
+
+    display: none;
+}
+
  /* пишем стили которые меняются на мобиле */
 @media(max-width:500px) {
 
 div{
 
     width: 100px
+    
 }
 
 div:hover{
@@ -413,6 +434,14 @@ body div:first-child a{
     display: block;
 }
 
+.desktop{
+
+    display: none;
+}
+
+.mobile{
+    display: block;
+}
 }
    
     
